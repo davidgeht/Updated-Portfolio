@@ -1,0 +1,65 @@
+
+Body{
+    background-image: url(../images/Dark-City-Widescreen-Wallpapers-17951.jpg);
+    font-family: 18px;
+    line-height: 34px;
+    color: #777777;
+}
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    background-color: #404040;
+    opacity: 0.8;
+  }
+  .nav-link{
+      background-color: #404040;
+  }
+  .py-4{
+    background-color: #404040;
+  }
+  
+  .page-content {
+    width: calc(100% - 17rem);
+    margin-top: 5rem;
+    margin-left: 17rem;
+    transition: all 0.4s;
+  }
+  
+#home-buttons{
+    margin-top: 10rem;
+}
+  
+  
+  @media (max-width: 768px) {
+    #sidebar {
+      margin-left: -17rem;
+    }
+    #sidebar.active {
+      margin-left: 0;
+    }
+    #content {
+      width: 100%;
+      margin: 0;
+    }
+    #content.active {
+      margin-left: 17rem;
+      width: calc(100% - 17rem);
+    }
+  }
+  #module{
+    margin-left: 18rem;
+    opacity: 0.9;
+  }
+  #port-content{
+    margin-left: 100px;
+  }
+  
+  
+  
+  
