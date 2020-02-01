@@ -1,45 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <title>About me</title>
-
+        <script src="https://kit.fontawesome.com/9917a91b85.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+       
+        
+        <title> About Me </title>
     </head>
     <body>
-        <header class="fixed-top">
-            <div class="container">
-            <div class="row">
-                <div class="col-4">                   
-                        <p id="logo">David Gehtman</p>        
-                </div> 
-           
-                <div class="col-8">
-                    <nav>
-                        <p id="navbar">
-                            <a href="index.html">About me</a>  ⎜
-                            <a href="portfolio.html">Portfolio</a> ⎜
-                            <a href="contact.html">Contact</a>
-                        </p>
-                    </nav>
-                </div>
-            </div>
-            </div>
-        </header>
+        <div class="vertical-nav " id="sidebar">
+            <div class="py-4 px-3 mb-4 ">
+               <div class="media d-flex align-items-center"><img src="images/selfie.jpeg" alt="..." width="65" class="mr-3 rounded-square img-thumbnail shadow-sm">
+                   <div class="media-body">
+                       <h4 class="m-0">David Gehtman</h4>
+                       <p class="font-weight-dark text-white mb-0">Web developer</p>
+                   </div>
+               </div>
+           </div>
+                 
+            <p class="text-white font-weight-bold text-uppercase px-3 small pb-4 mb-0">Main</p>
+                 
+           <ul class="nav flex-column  mb-0">
+               <li class="nav-item">
+                   <a href="home-page.html" class="nav-link text-light font-italic">
+                        <i class="fas fa-home mr-3 text-secondary fa-fw"></i>
+                           Home
+                   </a>
+               </li>
+               <li class="nav-item">
+                   <a href="index.html" class="nav-link text-light font-italic">
+                        <i class="fa fa-address-card mr-3 text-secondary fa-fw"></i>
+                            About Me
+                   </a>
+               </li>
+                <li class="nav-item">
+                    <a href="Portfolio.html" class="nav-link text-light font-italic">
+                       <i class="fa fa-archive mr-3 text-secondary fa-fw"></i>
+                           Portfolio
+                       </a>
+               </li>
+               <li class="nav-item">
+                   <a href="Resume.html" class="nav-link text-light font-italic">
+                       <i class="fas fa-file-alt mr-3 text-secondary fa-fw"></i>
+                        Resume
+                   </a>
+                </li>
+               <li class="nav-item">
+                   <a href="contact.html" class="nav-link text-light font-italic">
+                       <i class="far fa-address-book mr-3 text-secondary fa-fw"></i>
+                       Contact
+                   </a>
+               </li>
+           </ul>
+       </div>
         
-        <div class="container">
-        <div class="main-section">
-        <div class="row">
+       <div class="container rounded" id="aboutme">
+        <div class="page-content p-5" id="port-content">
+            <div class="row">
             <div class="col">
-                <h1>About me</h1>
+                <h1 class="text-white">About me</h1>
             </div>
         </div>
 
 
         <div class="row">
-            <div class="col">
-                    <img src="images/selfimage.jpeg" class="rounded float-left" alt="david Gehtman" id="selfie">
+            <div class="col text-white">
+                    <img src="images/selfimage.jpeg" class="rounded float" alt="david Gehtman" id="selfie">
                     <p>My name is David Gehtman, I am a young professional living at the heart of toronto's mid town at yonge and eglinton.</p>
 
                     <p>Orignally I studied kinesiology at york university, and decided to switch my interest to full stack development. </p>  
@@ -48,8 +80,8 @@
 
                     <p>I also enjoy hiking, camping and trekking. I also enjoy walking my dog named ceaser, he is a half labrador and half husky. </p>
 
+                </div>
             </div>
-        </div>
         </div>
         </div>
         

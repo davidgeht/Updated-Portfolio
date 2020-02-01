@@ -60,6 +60,14 @@ Body{
     margin-left: 100px;
   }
   
+  #selfie{
+    width: 400px;
+    height:300px;
+  }
+
+  #aboutme{
+    opacity: 1;
+  }
   
   
   
